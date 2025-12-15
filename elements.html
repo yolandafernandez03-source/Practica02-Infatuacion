@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 
 <html>
+	<html lang="es">
 	<head>
 		<title>Elements - INFATUACION</title>
 		<link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -45,18 +46,31 @@
 									<!-- Content -->
 										<!-- Image -->
 													<h3>Image</h3>
-													<p><span class="image left"><img src="images/PLAYA.jpg" alt="Playa" /></span></p>
-													<p><span class="image right"><img src="images/LOJA.jpg" alt="Loja" /></span> </p
-													<p><span class="image right"><img src="images/AGUA.jpg" alt="Agua" /></span> </p
-													<p><span class="image right"><img src="images/CIELO.jpg" alt="Cielo" /></span> </p		
+													<figure class="image left">
+														<img src="images/PLAYA.jpg" alt="Playa">
+														<figcaption>Playa </figcaption> <!-- opcional -->
+													</figure>
+													<figure class="image right">
+														<img src="images/LOJA.jpg" alt="Loja">
+														<figcaption>Loja</figcaption> <!-- opcional -->
+													</figure>
+													<figure class="image left">
+														<img src="images/AGUA.jpg" alt="Agua">
+														<figcaption>Agua</figcaption> <!-- opcional -->
+													</figure>
+													<figure class="image right">
+														<img src="images/CIELO.jpg" alt="Cielo">
+														<figcaption>Cielo</figcaption> <!-- opcional -->
+													</figure>	
 
-																																	   
-										<h2 id="content">Annabel Lee </h2>
-										<p>Era hace muchos, muchos años,
-en un reino junto al mar,
-que vivía una doncella
-a quien quizá conozcáis
-por el nombre de Annabel Lee. </p>
+										<article>
+											<h2>Poema: Annabel Lee</h2>																		   
+                                               <p>Era hace muchos, muchos años,
+                                                  en un reino junto al mar,
+                                                  que vivía una doncella
+                                                  a quien quizá conozcáis
+                                                  por el nombre de Annabel Lee. </p>
+										</article>
 										<div class="row">
 											<div class="col-6 col-12-small">
 												<h3>Soneto 18 </h3>
@@ -78,7 +92,7 @@ y el sueño de las distancias. </p>
 											</div>
 										</div>
 
-									<hr class="major" />
+									<hr class="major" >
 
 									<!-- Elements -->
 										<h2 id="Elementos">Elements</h2>
@@ -118,11 +132,11 @@ y el sueño de las distancias. </p>
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" name="name" id="name" >
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="text" name="email" id="email" >
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
@@ -137,18 +151,20 @@ y el sueño de las distancias. </p>
 							</section>
 							<section class="split">
 								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">yolanda.fernandez03@goumh.umh.es</a>
+									<section id="contact">
+										<h2>Contacto</h2>
+										<p>Email: yolanda.fernandez03@goumh.umh.es</p>
+										<p>Dirección: Elche</p>
+									</section>
+									
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-home"></span>
 										<h3>Address</h3>
-										<span>1234 Somewhere Road<br />
-										ELCHE<br />
+										<span>1234 Somewhere Road<br >
+										ELCHE<br >
 										ESPAÑA</span>
 									</div>
 								</section>
@@ -184,6 +200,7 @@ y el sueño de las distancias. </p>
 	</body>
 
 </html>
+
 
 
 
